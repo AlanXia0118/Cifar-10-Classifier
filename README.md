@@ -9,6 +9,7 @@ Packages utilized in this project including:<br>
 * tensorflow 1.7<br>
 * opencv 3.1.0<br>
 * matplotlib 2.0.2<br>
-* numpy 1.12.1  
+* numpy 1.12.1
+
 All of which you can easily get access to on Anaconda.
 
