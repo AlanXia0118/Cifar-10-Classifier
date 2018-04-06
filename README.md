@@ -81,3 +81,6 @@ Epoch 1, Overall loss = 0.59 and accuracy of 0.809
 test
 Epoch 1, Overall loss = 0.597 and accuracy of 0.8
 ```
+
+# Contact
+For further discussion, you are welcome to contact me at ```kedi_xia@zju.edu.cn```.
