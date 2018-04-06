@@ -4,8 +4,7 @@ An image classifier trained on Cifar-10 dataset, inspired by assignment two of c
 
 
 # Enviroment
-Packages utilized in this project including:
-
+Packages utilized in this project including:  
 * python 3.5.4
 
 * tensorflow 1.7
