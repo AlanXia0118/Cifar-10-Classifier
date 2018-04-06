@@ -1,5 +1,5 @@
 # Cifar-10-Classifier
-An image classifier trained on Cifar-10 dataset, inspired by assignment two of cs231n.
+An image classifier trained on Cifar-10 dataset with 80.9% accuracy, inspired by assignment two of cs231n.
 
 
 
@@ -37,7 +37,34 @@ model_path = './checkpoints/model.ckpt'
 #input your image path
 img_path = './test_images/horse.png'
 ```
-And you should see an output as below.
+A pre-trained model was kept for you in `~/checkpoints`. And you should see an output as below.
 <br>
 <br>
 ![Prediction on 'horse.png'](https://github.com/AlanXia0118/Resource/blob/master/CIFAR-10-Classifier/horse.png)
+
+# Training and validation
+Training and validation
+The training process is executed in `cnn_tensorflow.py`. Personally I trained the model on Floydhub.com which is a website provides online training service with powerful GPUs, so as to achieve better performence of the model.
+Here are some hyper-parameters you'll have to set before training, all of which you can find at the start of script with suggested initial values:
+```
+# hyper parameters
+adam_beta1 = 0.88
+adam_lr = 5e-4
+train_batch_size = 128
+plot_losses = True
+```
+To conduct training process, you can change `train_iter` and `last_checkpoint_dir` to start. That is, the code will then automatically execute restoring and saving operations in the `~/model_dir` directory as below(e.g. last_checkpoint_dir=50, train_iter=1):
+<br>
+<br>
+![](https://github.com/AlanXia0118/Resource/blob/master/CIFAR-10-Classifier/model_dir.png) 
+<br>
+<br>
+Hopefully steps above will help you realize more effiecient training process. Moreover, you can set 'last_checkoint_dir' to be 0 to trigger an initialiaztion of whole graph to train a model from sketch.
+
+For validation, just set the `train_iter` to be 0, and you should see a result like this on pre-trained model provided:
+```
+Validation
+Epoch 1, Overall loss = 0.59 and accuracy of 0.809
+test
+Epoch 1, Overall loss = 0.597 and accuracy of 0.8
+```
