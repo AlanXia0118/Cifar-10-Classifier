@@ -16,7 +16,8 @@ All of which you can easily get access to on Anaconda.
 # Dataset
 The current model was trained on CIFAR-10 dataset which consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. For more details please refer to http://www.cs.toronto.edu/~kriz/cifar.html.  
 <br>
-![](https://github.com/AlanXia0118/Resource/blob/master/CIFAR-10-Classifier/CIFAR%2010%20classes.png)
+![](https://github.com/AlanXia0118/Resource/blob/master/CIFAR-10-Classifier/cifar-10.png)
+<br>
 <br>
 Here we use `~/load_data/data_utils.py` to extract the data for training, validation and test. CIFAR-10 dataset has already been divided into several batches in the following directory, which you can take as input directly:  
 ```~/load_data/datasets/cifar-10-batches-py```
