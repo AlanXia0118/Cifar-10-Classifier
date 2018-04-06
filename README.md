@@ -57,7 +57,7 @@ A pre-trained model was kept for you in `~/checkpoints`. And you should see an o
 
 # Training and validation
 Training and validation
-The training process is executed in `cnn_tensorflow.py`. Personally I trained the model on Floydhub.com which is a website provides online training service with powerful GPUs, so as to achieve better performence of the model.
+The training process is executed in `cnn_tensorflow.py`. Personally I trained the model on Floydhub.com which is a website that provides online training service with powerful GPUs, so as to achieve better performence of the model.
 Here are some hyper-parameters you'll have to set before training, all of which you can find at the start of script with suggested initial values:
 ```
 # hyper parameters
