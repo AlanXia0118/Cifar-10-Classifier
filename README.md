@@ -28,4 +28,5 @@ model_path = './checkpoints/model.ckpt'
 img_path = './test_images/horse.png'
 ```
 And you should see a result as below.
-![Prediction on 'horse.png'](https://github.com/AlanXia0118/Resource/blob/master/CIFAR-10-Classifier/read_predict.png)
+<br>
+![Prediction on 'horse.png'](https://github.com/AlanXia0118/Resource/blob/master/CIFAR-10-Classifier/horse.png)
