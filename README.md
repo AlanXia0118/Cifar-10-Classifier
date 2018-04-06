@@ -38,7 +38,7 @@ The design of network is mainly motivated by (cnn-bn-relu)*n structure and AlexN
 3 dropout layers were inserted to conquer the problem of overfitting which initial model previously suffered from, with dropout rate all set to be 0.5. This helped the model to generalze much better, as the accuracy finally raised by about 3%. 
 <br>
 <br>
-![](https://github.com/AlanXia0118/Resource/blob/master/CIFAR-10-Classifier/arch.png)
+![](https://github.com/AlanXia0118/Resource/blob/master/CIFAR-10-Classifier/architecture.png)
 
 
 # Predict
